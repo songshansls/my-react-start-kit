@@ -1,0 +1,43 @@
+{
+  "name": "my-start-kit",
+  "version": "1.0.0",
+  "description": "nothing to say",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --config build/webpack.prod.conf.js",
+    "server": "webpack-dev-server --config build/webpack.base.conf.js --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://gitlab@git.garena.com:2222/jianqiao.hu/my-start-kit.git"
+  },
+  "keywords": [
+    "start-kit"
+  ],
+  "author": "hjq",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "redux-devtools-extension": "^2.13.5",
+    "style-loader": "^0.23.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.7",
+    "webpack-merge": "^4.1.4"
+  },
+  "dependencies": {
+    "@material-ui/core": "^3.0.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "redux": "^4.0.0"
+  }
+}

@@ -1,0 +1,16 @@
+.root {
+    width: 100%;
+    height: 100%;
+}
+
+.root li {
+    font-weight: 300;
+}
+
+.root li:hover {
+    color: #2196f3;
+}
+
+.selected-item li{
+    color: #2196f3;    
+}

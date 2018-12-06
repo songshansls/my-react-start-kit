@@ -1,0 +1,10 @@
+.root {
+    width: 100%;
+    height: 100%;
+}
+
+.read-list {
+    width: 15em;
+    height: 20em;
+    overflow: auto;
+}

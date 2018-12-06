@@ -1,0 +1,27 @@
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-weight: 300;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #bbb;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #eee;
+}

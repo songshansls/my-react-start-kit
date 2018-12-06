@@ -1,0 +1,13 @@
+
+<svg width="28px" height="44px" viewBox="0 0 28 44" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Spex-Configuration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="SpexConfigApplyAccessDialog2-Copy-5" transform="translate(-974.000000, -461.000000)">
+            <circle id="Oval" stroke="#979797" stroke-width="2" cx="988" cy="474" r="10"></circle>
+            <rect id="Rectangle" fill="#FFFFFF" x="975" y="461" width="25" height="13"></rect>
+            <circle id="Oval" stroke="#979797" cx="977.5" cy="471.5" r="2.5"></circle>
+            <circle id="Oval-Copy-2" stroke="#979797" cx="988" cy="501.5" r="2.5"></circle>
+            <circle id="Oval-Copy" stroke="#979797" cx="998.5" cy="471.5" r="2.5"></circle>
+            <path d="M988,485.5 L988,498.5" id="Line" stroke="#979797" stroke-width="2" stroke-linecap="square"></path>
+        </g>
+    </g>
+</svg>
