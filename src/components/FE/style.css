@@ -19,3 +19,19 @@
     height: 100%;
     width: 0;
 }
+
+.arrows {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-container {
+    margin: 5em;
+}
+.box {
+
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    /* margin: 5em; */
+}
