@@ -1,6 +1,7 @@
 import React from 'react'
 import { my } from 'constants/data'
 import { Button } from '@material-ui/core'
+import { ArcherContainer, ArcherElement } from 'react-archer'
 
 import style from './style.css'
 
@@ -161,7 +162,43 @@ class FE extends React.Component {
             >
             load
             </Button>
-            
+            <ArcherContainer>
+                <div className={style.arrows}>
+                    <ArcherElement
+                        id='root'
+                        relations={
+                            [{
+                                from: { anchor: 'right' },
+                                to: { anchor: 'left', id: 'element2' }
+                            }]
+                        }
+                        >
+                            <div className={style.box}>root</div>
+                        </ArcherElement>
+                        <ArcherElement
+                        id='element2'
+                        relations={
+                            [{
+                                from: { anchor: 'right' },
+                                to: { anchor: 'left', id: 'element3' }
+                            }]
+                        }
+                        >
+                            <div className={style.box}>element2</div>
+                        </ArcherElement>
+                        <ArcherElement
+                        id='element3'
+                        relations={
+                            [{
+                                from: { anchor: 'bottom' },
+                                to: { anchor: 'bottom', id: 'root' }
+                            }]
+                        }
+                        >
+                            <div className={style.box}>element3</div>
+                        </ArcherElement>
+                        </div>
+                </ArcherContainer>
         </div>
     }
 }
