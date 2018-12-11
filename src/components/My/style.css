@@ -29,3 +29,8 @@
     font-size: 24px;
     margin-top: 0.5em;
 }
+
+.graph {
+    width: 500px;
+    height: 500px;
+}

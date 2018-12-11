@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^3.0.2",
-    "echarts-gl": "^1.1.1",
+    "echarts": "^4.2.0-rc.2",
     "react": "^16.4.2",
     "react-archer": "^0.3.2",
     "react-dom": "^16.4.2",

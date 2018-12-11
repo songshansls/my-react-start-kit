@@ -55,3 +55,29 @@ export const readList = [
         author: 'BYGJ'
     }
 ]
+
+export const graphData = [{
+    name: 'closed'
+}, {
+    name: 'reviewing'
+}, {
+    name: 'approved'
+}, {	
+    name: 'rejected'
+}]
+
+export const graphLinks = [
+    {
+        source: 'reviewing',
+        target: 'rejected'
+}, 
+{
+        source: 'reviewing',
+        target: 'closed'
+}, {
+    source: 'reviewing',
+    target: 'approved'
+}, {
+    source: 'rejected',
+    target: 'reviewing'
+}]

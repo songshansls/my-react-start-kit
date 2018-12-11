@@ -1,5 +1,6 @@
 import React from 'react'
-import { my } from 'constants/data'
+import { my, graphData, graphLinks } from 'constants/data'
+import PhaseGraph from 'components/Common/PhaseGraph'
 
 import style from './style.css'
 
@@ -17,6 +18,12 @@ class My extends React.Component {
                     <img className={style.avatar} src={avatar}/>
                 </div>
                 <div className={style.name}>{name}</div>
+                <div className={style.graph}>
+                    <PhaseGraph
+                        data={graphData}
+                        links={graphLinks}
+                    />
+                </div>
             </div>
         </div>
     }
